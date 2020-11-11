@@ -1,6 +1,8 @@
 # asdf-goreleaser
 
-GoReleaser plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
+![GitHub Actions Status](https://github.com/kforsthoevel/asdf-goreleaser/workflows/Main%20workflow/badge.svg?branch=master)
+
+[GoReleaser](https://goreleaser.com/) plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 
 ## Install
 
