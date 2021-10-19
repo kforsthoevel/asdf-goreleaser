@@ -55,6 +55,10 @@ get_arch() {
       ;;
   esac
 
+  if [ "$(get_platform)" == "Darwin" ]; then
+    arch='all'
+  fi
+
   echo ${arch}
 }
 
