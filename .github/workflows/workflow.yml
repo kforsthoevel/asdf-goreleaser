@@ -1,3 +1,4 @@
+---
 name: Main workflow
 
 on:
@@ -20,7 +21,8 @@ jobs:
 
     steps:
       - name: asdf_plugin_test
-        uses: asdf-vm/actions/plugin-test@v2.0.0
+        uses: asdf-vm/actions/plugin-test@v2.1.0
+
         with:
           command: goreleaser --version
         env:
